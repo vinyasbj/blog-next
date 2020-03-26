@@ -1,14 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import "../styles.scss"
-// import "../font-awesome.min.css"
-import  '@fortawesome/react-fontawesome'
-import '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/fontawesome-svg-core'
 
-// import '@fortawesome/fre'
-
-// import "../"
 import Navbar from './components/navbar'
 
 import Home from './components/home';
