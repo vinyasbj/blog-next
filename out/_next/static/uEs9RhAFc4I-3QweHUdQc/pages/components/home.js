@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{LDml:function(n,o,e){"use strict";e.r(o);var t=e("q1tI"),u=e.n(t).a.createElement;o.default=function(n){return u("h1",null,"Hello ",n.name,"!")}},oCQ8:function(n,o,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/home",function(){return e("LDml")}])}},[["oCQ8",1,2,0]]]);
