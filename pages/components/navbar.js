@@ -4,7 +4,7 @@ import React from 'react';
 import FontAwesome from 'react-fontawesome'
 import { Form,FormControl,Button } from 'react-bootstrap';
 import Link from 'next/link'
-
+import Router from "./router";
 class Navbar extends React.Component {
     constructor(props){
         super(props)
@@ -28,10 +28,7 @@ class Navbar extends React.Component {
             <h1><a href="#">Future Imperfect</a></h1>
             <nav className="links">
                 <ul>
-                    <li> <Link href="/"> HOME </Link> </li>
-                    <li> <Link href="/movies"> MOVIES</Link> </li>
-                    <li> <Link href="/tech">TECH</Link> </li>
-                    <li> <Link href="/sports">SPORTS</Link> </li>
+                   <Router/>
                 </ul>
             </nav>
             <nav className="main">
