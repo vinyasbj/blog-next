@@ -7,7 +7,6 @@ const Router = () => (
       <li> <Link href="/movies"> MOVIES</Link> </li>
       <li> <Link href="/tech">TECH</Link> </li>
       <li> <Link href="/sports">SPORTS</Link> </li>
-      <li> <Link href="/sports">SPORTS</Link> </li>
       <li><Link href="/article"><a>Article</a></Link> </li>
     </div>
 );
